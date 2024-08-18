@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import org.springframework.data.annotation.Id;
 
 @Entity
-@Table
+@Table(name = "user")
 public class UserModel {
 
     @Id
